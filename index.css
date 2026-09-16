@@ -1,0 +1,14 @@
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+ body{
+    margin:0;
+
+ }

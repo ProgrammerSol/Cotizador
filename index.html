@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <img src="undraw_stock-prices_8nuz.svg" alt="">
+        <div id="coin-container">
+            <form id="coin-form">
+                 <div class="coin-imput-container" >
+                <label for="coin ">Elige tu Moneda </label>
+                <select class="coin-imput"id="coin">
+                    <option selected disabled value="">Selecciona una moneda </option>
+                     <option value="USD">Dolar </option>
+                     <option value="EUR">Euros</option>
+                     <option value="ARS">pesos Argentinos</option>
+                     <option value="VES">Bolivares</option>
+                </select>
+            </div>
+            <div class="coin-imput-container" >
+                <label for="crypto">Elige tu cryptomoneda </label>
+                <select class="coin-imput"id="crypto">
+                    <option selected disabled value="">Selecciona una cryptomoneda </option>
+                     <option value="BTC">Bitcoin</option>
+                     <option value="ETH">Ethereum</option>
+                     <option value="AXS">AXS</option>
+                     <option value="BNB">Binance Coin </option>
+                </select>
+            </div>
+            <div class="coin-imput-container" >
+                <label for="amount">Elige tu cryptomoneda </label>
+                <input type="text" class="coin-imput" id="amount" placeholder="Monto">
+        </div>
+        <button id="form-btn" type="submit">COTIZAR </button>
+
+            </form>
+            <div id="coin-inf">
+                <p class="info">El Precio es: <span class="price">1400$</span></p>
+                <p class="info">El Precio mas alto es:<span class="price">1400$</span></p>
+                <p class="info">El Precio mas bajo es:<span class="price">1400$</span></p>
+                <p class="info">Variacion 24HR: <span class="price">4.5%</span></p>
+                <p class="info">Puedo comprar: <span class="price">1.5854ETH </span></p>
+
+            </div>
+           
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
